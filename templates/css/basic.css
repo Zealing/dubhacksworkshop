@@ -1,0 +1,28 @@
+/* CSS Document */
+
+/* CSS Document */
+body{ margin:0px; padding:0px; min-width:1000px; font-family:Arial,"ËÎÌå"; font-size:12px; color:#cccccc;
+  background-attachment:fixed;
+  }
+  
+a{ font-family:Arial,"Î¢ÈíÑÅºÚ"; font-size:14px; color:#cccccc; text-align:center; text-decoration:none;}
+
+a:hover{ color:#a6892f;}
+
+a.theater_name{font-size:16px;}
+a.city {font-size:24px; padding-left: 20px; color:#333333 ;}
+img{ border:0 none;}
+div,ul,li,p,form,ol,dl,dt{ margin:0; padding:0;}
+ul,li{ list-style-type:none;}
+
+#wrapper {position:relative; margin:0px auto; overflow:hidden;}
+#container { overflow:hidden;  margin:auto; float: center;}
+#header { text-align:center; overflow:hidden; height:245px; float:none;  }
+#introduction {margin-left:16px; text-align:center; font-size:26px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; color:#900 }
+#content {	margin-top: 30px;}
+
+/*###### Í·²¿ ######*/
+
+
+/*###### ÖÐ¼äÄÚÈÝÀ¸ÑùÊ½ ######*/
+#wrapper #container #content #page_container { float:right;width:850 px; height:100%; position:relative; padding-top:0px; margin-right:1px;}

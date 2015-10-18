@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>Food and Diet</title>
+<link href="images/basic.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	a{
+		font-size:25px;
+		font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif;
+		color:#660000;
+	}
+</style>
+
+</head>
+
+<body>
+<div id= "container">
+	<div id="header" style=" text-align:center; overflow:hidden; height:245px; float:none; ">
+		<img src="images/food.jpg" alt="icon" height="200"  />
+		<img src="images/healthyliving.jpg" alt="icon" height="200" />
+	</div>
+    <div id="introduction" style="margin-left:16pt; font-size:26px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; color:#900; ">
+    		<p>Our website provides recipe searching based on the pictures of various food users upload.</p>
+	</div>
+	<div id="searchresult" style="text-align:center; margin-top:20pt; font-size:26px; color:#330000;">
+		Here are the top 5 search results according to the picture:
+	</div>
+       
+
+<div id="results" style="margin-left:250pt; margin-top:20pt; text-align:left; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif;">
+<ul id="resultsback">
+<li id="resultsitem" " >
+	<script type="text/javascript">
+	document.write('<img src = "{{translated[0]['image']}}" />');
+	</script>
+	<script type="text/javascript">
+	document.write('<a href="{{translated[0]['url']}}" >{{translated[0]['label']}}</a>');
+	</script>
+</li>
+
+<li id="resultsitem" style="margin-top:20pt" >
+	<script type="text/javascript">
+		document.write('<img src = "{{translated[1]['image']}}" />');
+		document.write('<a href="{{translated[1]['url']}}">{{translated[1]['label']}}</a>');
+	</script>
+</li>
+<li id="resultsitem" style="margin-top:20pt" >
+	<script type="text/javascript">
+	document.write('<img src = "{{translated[2]['image']}}" />');
+	document.write('<a href="{{translated[2]['url']}}">{{translated[2]['label']}}</a>');
+	</script>	
+</li>
+<li id="resultsitem" style="margin-top:20pt" >
+	<script type="text/javascript">
+	document.write('<img src = "{{translated[3]['image']}}" />');
+	document.write('<a href="{{translated[3]['url']}}">{{translated[3]['label']}}</a>');
+	</script>
+</li>
+<li id="resultsitem" style="margin-top:20pt" >
+	<script type="text/javascript">
+	document.write('<img src = "{{translated[4]['image']}}" />');
+	document.write('<a href="{{translated[4]['url']}}">{{translated[4]['label']}}</a>');
+	</script>
+</li>
+</ul>
+
+</div>
+</body>
+</html>
